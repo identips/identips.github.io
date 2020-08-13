@@ -1,7 +1,7 @@
 ---
 title: Article Section
 ---  
-# Hello
+{% highlight xml [linenos]%}
 
     <article id='article-wrapper'>
       <b:section class='main' id='main'>
@@ -984,3 +984,5 @@ title: Article Section
         </b:widget>
       </b:section>
     </article>
+    
+{% endhighlight %}
