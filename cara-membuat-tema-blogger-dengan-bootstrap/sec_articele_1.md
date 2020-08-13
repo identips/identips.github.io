@@ -1,8 +1,6 @@
 ---
 title: Article Section
 ---  
-{% highlight xml [linenos]%}
-
     <article id='article-wrapper'>
       <b:section class='main' id='main'>
         <b:widget id='Blog1' locked='true' title='Posting Blog' type='Blog'>
@@ -984,5 +982,3 @@ title: Article Section
         </b:widget>
       </b:section>
     </article>
-    
-{% endhighlight %}
