@@ -21,6 +21,14 @@ background-color: #fff;
 color: #444;
 font-family: 'Vollkorn', serif;
 }
+
+a{
+    color: #2C1544;
+    text-decoration: none;
+    &:hover{
+        border-bottom: dashed .2em  #FDDD4E;
+    }
+}
 main{
     &.content{
         padding: 1rem 2rem;
@@ -29,4 +37,16 @@ main{
             font-family: 'Calistoga', serif;
         }
     }
+}
+
+.navbar{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #2C1544;
+    height: 25px;
+    padding: 5px;
+    text-align: center;
+    border-top: solid 2px  #FDDD4E;
 }
