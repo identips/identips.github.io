@@ -6,18 +6,27 @@
 	src: url('assets/fonts/Calistoga-Regular.woff2') format('woff2');
 }
 
+@font-face {
+	font-family: 'Vollkorn'; 
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url('assets/fonts/Vollkorn-Regular.woff2') format('woff2');
+}
+
 body{
 margin:0;
 padding:0;
 background-color: #fff;
 color: #444;
-font-family: 'Calistoga', serif;
+font-family: 'Vollkorn', serif;
 }
 main{
     &.content{
         padding: 1rem 2rem;
         h1, h2, h3, h4, h5, h6{
             color:#2C1544;
+            font-family: 'Calistoga', serif;
         }
     }
 }
