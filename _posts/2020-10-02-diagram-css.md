@@ -1,5 +1,6 @@
 ---
 layout: code
+slug: diagram css
 ---
 Hello
 <div id='code'>
