@@ -8,7 +8,18 @@
             {{ content }}
         </div>
     </main>
-    <script>
+    <div class="code-nav">
+        <div id="show-code" onclick="showCode()">
+            <svg height="50px"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            viewBox="0 0 100 100" >
+                <g fill="none" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" >
+               <polyline points=" 60.047,29.858 87.39,50 60.047,70.142"/>
+               <polyline points="39.953,70.142 12.61,50 39.953,29.858"/>
+                </g>
+             </svg>
+        </div>
+    </div>
+        <script>
         function showCode(){
             document.getElementById('code').classList.toggle('active')
         }
