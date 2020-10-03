@@ -70,12 +70,14 @@ main{
     bottom: 0;
     right: 10px;
 }
+
 #show-code{
-    height: 50px;
-    width: 50px;
+    height: 30px;
+    width: 30px;
     border-radius: 50%;
-    background-color: #2C1544;
+    background-color: #49266e;
+    border: solid 2.5px transparent;
     &:hover{
-        background-color: #49266e;
+        border-color: #fff3;
     }
 }
