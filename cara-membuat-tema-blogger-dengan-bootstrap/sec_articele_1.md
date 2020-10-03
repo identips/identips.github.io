@@ -2,8 +2,6 @@
 title: Article Section
 layout: code
 --- 
-<div class='code' id='code'>
-```xml
     <article id='article-wrapper'>
       <b:section class='main' id='main'>
         <b:widget id='Blog1' locked='true' title='Posting Blog' type='Blog'>
@@ -985,4 +983,3 @@ layout: code
         </b:widget>
       </b:section>
     </article>
-```</div>
