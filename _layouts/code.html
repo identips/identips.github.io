@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="id">
+    {%- include head.html -%}
+    <body>
+     {% include nav.html %}
+    <main class="content" aria-label="Content">
+        <div>
+            {{ content }}
+        </div>
+    </main>
+    <script>
+        function showCode(){
+            document.getElementById('code').classList.toggle('active')
+        }
+    </script>
+    </body>
+</html>

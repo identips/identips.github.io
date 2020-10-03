@@ -50,3 +50,30 @@ main{
     text-align: center;
     border-top: solid 2px  #FDDD4E;
 }
+
+.code{
+    display: none;
+    position: fixed;
+    bottom: 35px;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #f9f9f9;
+    padding: 2em;
+    &.active{
+        display: block;
+    }
+}
+.code-nav{
+    position: fixed;
+    z-index: 1000;
+}
+#show-code{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #2C1544;
+    &:hover{
+        background-color: #49266e;
+    }
+}
