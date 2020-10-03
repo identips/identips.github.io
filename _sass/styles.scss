@@ -51,7 +51,7 @@ main{
     border-top: solid 2px  #FDDD4E;
 }
 
-.code{
+#code{
     display: none;
     position: fixed;
     bottom: 35px;
@@ -67,6 +67,8 @@ main{
 .code-nav{
     position: fixed;
     z-index: 1000;
+    bottom: 0;
+    right: 10px;
 }
 #show-code{
     height: 50px;
