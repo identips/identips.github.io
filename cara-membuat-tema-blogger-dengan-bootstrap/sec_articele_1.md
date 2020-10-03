@@ -985,5 +985,4 @@ layout: code
         </b:widget>
       </b:section>
     </article>
-```
-</div>
+```</div>
