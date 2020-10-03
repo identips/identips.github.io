@@ -1,5 +1,6 @@
 ---
 title: Article Section
+layout: code
 --- 
 <div class='code' id='code'>
 ```xml
